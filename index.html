@@ -3,67 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Taggart Enterprises Pvt. Ltd. — Industrial Importers, Steel, Chemicals & Port Logistics</title>
-  <meta name="description" content="Taggart Enterprises Pvt. Ltd., based in Jamnagar, Gujarat, is a premier Indian industrial trading and port logistics house supplying Steel, Base Metals, Industrial Chemicals, Fertilizers, Heavy Machinery, and Wind Energy assets." />
+  <title>Taggart Enterprises Pvt. Ltd. — Industrial Steel, Chemicals, Metals & Port Logistics | India</title>
+  <meta name="description" content="Taggart Enterprises Pvt. Ltd. (Bedi Bunder Road, Jamnagar) — Premier Indian industrial trading and port logistics house supplying Steel, Metals, Industrial Chemicals, Fertilizers, Heavy Cranes, and Wind Turbines." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,600&family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --obsidian: #111317;
-      --charcoal: #1c2026;
-      --slate-dark: #2c323d;
-      --gold-700: #8c621e;
-      --gold-600: #b07d2b;
-      --gold-500: #cf993d;
-      --gold-300: #ebd197;
-      --gold-100: #f9f3e3;
+      --obsidian: #0d0f13;
+      --charcoal: #171a21;
+      --gold-700: #8f641e;
+      --gold-600: #b5822e;
+      --gold-500: #d4a149;
+      --gold-300: #efd396;
+      --gold-100: #fbf5e6;
       --alabaster: #faf7f2;
-      --ivory: #f3ede2;
-      --border-warm: #e4dccb;
-      --text-dark: #141619;
-      --text-mid: #434750;
-      --text-light: #6e737d;
+      --ivory: #f2ece1;
+      --border-warm: #e4dbc9;
+      --text-dark: #131518;
+      --text-mid: #454952;
+      --text-light: #6e737e;
       --white: #ffffff;
       --serif: 'Playfair Display', Georgia, serif;
       --sans: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
       --mono: 'IBM Plex Mono', monospace;
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
     body {
       font-family: var(--sans);
       background-color: var(--alabaster);
       color: var(--text-dark);
       line-height: 1.65;
+      overflow-x: hidden;
       -webkit-font-smoothing: antialiased;
     }
 
     .container {
-      max-width: 1280px;
+      max-width: 1300px;
       margin: 0 auto;
       padding: 0 2rem;
     }
 
-    /* Heritage Top Ribbon */
-    .heritage-ribbon {
+    /* Top Gold-Trimmed Corporate Ribbon */
+    .top-ribbon {
       background: var(--obsidian);
       color: rgba(255, 255, 255, 0.78);
       font-family: var(--mono);
-      font-size: 0.73rem;
+      font-size: 0.72rem;
       padding: 0.55rem 0;
-      border-bottom: 1px solid rgba(207, 153, 61, 0.3);
+      border-bottom: 1px solid rgba(212, 161, 73, 0.35);
     }
-    .ribbon-inner {
+    .ribbon-flex {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -80,12 +72,12 @@
       align-items: center;
       gap: 0.45rem;
     }
-    .gold-pip {
+    .diamond {
       width: 6px;
       height: 6px;
       background: var(--gold-500);
-      display: inline-block;
       transform: rotate(45deg);
+      display: inline-block;
     }
     .ribbon-right {
       display: flex;
@@ -95,48 +87,49 @@
     .ribbon-right a {
       color: var(--gold-300);
       text-decoration: none;
+      transition: color 0.2s;
     }
-    .ribbon-right a:hover {
-      color: var(--white);
-    }
+    .ribbon-right a:hover { color: var(--white); }
 
-    /* Editorial Header */
+    /* Sticky Luxury Header */
     .site-header {
       position: sticky;
       top: 0;
       z-index: 100;
-      background: rgba(250, 247, 242, 0.96);
-      backdrop-filter: blur(10px);
+      background: rgba(250, 247, 242, 0.94);
+      backdrop-filter: blur(14px);
       border-bottom: 1px solid var(--border-warm);
+      box-shadow: 0 8px 25px -15px rgba(13, 15, 19, 0.12);
     }
     .header-inner {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      height: 92px;
+      height: 90px;
     }
     .brand {
       display: flex;
       align-items: center;
       gap: 1rem;
       text-decoration: none;
-      color: var(--obsidian);
     }
     .brand img {
-      width: 66px;
-      height: 66px;
+      width: 64px;
+      height: 64px;
       border-radius: 50%;
       object-fit: contain;
-      border: 1px solid rgba(176, 125, 43, 0.35);
+      border: 1.5px solid rgba(181, 130, 46, 0.45);
+      box-shadow: 0 4px 14px rgba(13, 15, 19, 0.12);
+      transition: transform 0.3s ease;
     }
+    .brand:hover img { transform: scale(1.05); }
     .brand-title {
       font-family: var(--serif);
       font-size: 1.48rem;
       font-weight: 700;
-      letter-spacing: 0.01em;
       color: var(--obsidian);
       display: block;
-      line-height: 1.15;
+      line-height: 1.1;
     }
     .brand-sub {
       font-family: var(--mono);
@@ -146,8 +139,9 @@
       color: var(--gold-700);
       font-weight: 600;
       display: block;
-      margin-top: 0.15rem;
+      margin-top: 0.2rem;
     }
+
     .nav-menu {
       display: flex;
       gap: 2.1rem;
@@ -156,19 +150,31 @@
     .nav-menu a {
       text-decoration: none;
       color: var(--text-mid);
-      font-size: 0.92rem;
+      font-size: 0.9rem;
       font-weight: 600;
+      position: relative;
+      padding: 0.3rem 0;
       transition: color 0.2s;
     }
-    .nav-menu a:hover {
-      color: var(--gold-700);
+    .nav-menu a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+      background: var(--gold-600);
+      transition: width 0.25s ease;
     }
-    .header-cta {
+    .nav-menu a:hover { color: var(--obsidian); }
+    .nav-menu a:hover::after { width: 100%; }
+
+    .header-actions {
       display: flex;
       align-items: center;
       gap: 0.75rem;
     }
-    .social-pill {
+    .soc-btn {
       width: 38px;
       height: 38px;
       border-radius: 6px;
@@ -181,139 +187,250 @@
       text-decoration: none;
       transition: all 0.2s;
     }
-    .social-pill:hover {
+    .soc-btn:hover {
       border-color: var(--gold-600);
       color: var(--gold-700);
+      transform: translateY(-2px);
     }
     .btn-gold {
-      background: var(--obsidian);
+      background: linear-gradient(135deg, var(--obsidian), #272b35);
       color: var(--gold-300);
       padding: 0.75rem 1.45rem;
-      border-radius: 4px;
+      border-radius: 6px;
       font-size: 0.86rem;
       font-weight: 600;
       text-decoration: none;
-      border: 1px solid var(--obsidian);
-      transition: all 0.2s;
-      letter-spacing: 0.02em;
+      border: 1px solid rgba(212, 161, 73, 0.45);
+      box-shadow: 0 8px 20px -8px rgba(13, 15, 19, 0.4);
+      transition: all 0.25s;
     }
     .btn-gold:hover {
-      background: var(--gold-700);
-      border-color: var(--gold-700);
+      background: linear-gradient(135deg, var(--gold-700), var(--gold-500));
       color: var(--white);
+      border-color: var(--gold-500);
+      transform: translateY(-2px);
     }
 
-    /* Editorial Architectural Hero (Warm Alabaster & Obsidian Contrast) */
+    /* Split-Screen Cinematic Luxury Industrial Hero */
     .hero {
+      background: var(--obsidian);
+      color: var(--white);
       padding: 4.5rem 0 5.5rem;
-      border-bottom: 1px solid var(--border-warm);
+      position: relative;
+      overflow: hidden;
+      border-bottom: 3px solid var(--gold-600);
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
       background:
-        radial-gradient(circle at 90% 10%, rgba(207, 153, 61, 0.12), transparent 40%),
-        var(--alabaster);
+        radial-gradient(circle at 18% 20%, rgba(212, 161, 73, 0.16), transparent 45%),
+        radial-gradient(circle at 85% 80%, rgba(212, 161, 73, 0.1), transparent 40%);
+      pointer-events: none;
     }
-    .hero-top-row {
+    .hero-grid {
+      position: relative;
+      z-index: 2;
       display: grid;
-      grid-template-columns: 1.25fr 0.75fr;
+      grid-template-columns: 1.05fr 0.95fr;
       gap: 3.5rem;
-      align-items: end;
-      padding-bottom: 3rem;
-      border-bottom: 1px solid var(--border-warm);
+      align-items: center;
     }
-    .hero-tag {
+    .hero-pill {
       display: inline-flex;
       align-items: center;
-      gap: 0.5rem;
+      gap: 0.55rem;
+      padding: 0.4rem 0.95rem;
+      background: rgba(212, 161, 73, 0.14);
+      border: 1px solid rgba(239, 211, 150, 0.35);
+      border-radius: 4px;
       font-family: var(--mono);
-      font-size: 0.75rem;
+      font-size: 0.73rem;
       text-transform: uppercase;
-      letter-spacing: 0.14em;
-      color: var(--gold-700);
-      background: var(--gold-100);
-      border: 1px solid rgba(176, 125, 43, 0.3);
-      padding: 0.35rem 0.85rem;
+      letter-spacing: 0.13em;
+      color: var(--gold-300);
       margin-bottom: 1.4rem;
-      font-weight: 600;
     }
     .hero h1 {
       font-family: var(--serif);
-      font-size: clamp(2.65rem, 4.5vw, 4.15rem);
+      font-size: clamp(2.7rem, 4.4vw, 4.15rem);
       line-height: 1.1;
-      color: var(--obsidian);
       font-weight: 700;
-    }
-    .hero h1 em {
-      color: var(--gold-700);
-      font-style: italic;
-      font-weight: 600;
-    }
-    .hero-summary-box {
-      background: var(--white);
-      border: 1px solid var(--border-warm);
-      border-top: 3px solid var(--gold-600);
-      padding: 1.85rem;
-    }
-    .hero-summary-box p {
-      font-size: 0.98rem;
-      color: var(--text-mid);
       margin-bottom: 1.4rem;
     }
-    .hero-actions {
+    .hero h1 em {
+      background: linear-gradient(90deg, #efd396, #d4a149, #f7e4b4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-style: italic;
+    }
+    .hero-desc {
+      font-size: 1.05rem;
+      color: rgba(255, 255, 255, 0.8);
+      max-width: 590px;
+      margin-bottom: 2.2rem;
+      line-height: 1.75;
+    }
+    .hero-cta-row {
       display: flex;
-      gap: 0.85rem;
+      gap: 1rem;
       flex-wrap: wrap;
+      margin-bottom: 2.8rem;
     }
-    .btn-secondary {
-      padding: 0.75rem 1.35rem;
-      border: 1px solid var(--obsidian);
+    .btn-champagne {
+      background: linear-gradient(135deg, var(--gold-500), var(--gold-700));
       color: var(--obsidian);
+      padding: 0.95rem 1.8rem;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.92rem;
       text-decoration: none;
-      font-size: 0.86rem;
-      font-weight: 600;
-      border-radius: 4px;
-      transition: all 0.2s;
+      box-shadow: 0 12px 28px -6px rgba(212, 161, 73, 0.45);
+      transition: all 0.25s;
     }
-    .btn-secondary:hover {
-      background: var(--obsidian);
+    .btn-champagne:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.08);
+    }
+    .btn-ghost-gold {
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--gold-300);
+      padding: 0.95rem 1.65rem;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.92rem;
+      text-decoration: none;
+      border: 1px solid rgba(239, 211, 150, 0.3);
+      transition: all 0.25s;
+    }
+    .btn-ghost-gold:hover {
+      background: rgba(212, 161, 73, 0.16);
       color: var(--white);
     }
 
-    /* 4-Column Architectural Index Strip Below Hero Headline */
-    .hero-ledger {
+    .hero-metrics {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      border-left: 1px solid var(--border-warm);
-      margin-top: 3rem;
-      background: var(--white);
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
+      padding-top: 1.85rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.14);
     }
-    .ledger-cell {
-      padding: 1.75rem;
-      border-right: 1px solid var(--border-warm);
-      border-top: 1px solid var(--border-warm);
-      border-bottom: 1px solid var(--border-warm);
-    }
-    .ledger-cell .idx {
-      font-family: var(--mono);
-      font-size: 0.72rem;
-      color: var(--gold-700);
-      font-weight: 600;
-      display: block;
-      margin-bottom: 0.5rem;
-    }
-    .ledger-cell h3 {
+    .hm-box strong {
       font-family: var(--serif);
-      font-size: 1.3rem;
-      color: var(--obsidian);
-      margin-bottom: 0.4rem;
+      font-size: 2.1rem;
+      color: var(--gold-300);
+      display: block;
+      line-height: 1;
+      margin-bottom: 0.3rem;
     }
-    .ledger-cell p {
-      font-size: 0.85rem;
-      color: var(--text-mid);
+    .hm-box span {
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.72);
     }
 
-    /* Section Defaults */
-    section {
-      padding: 5.5rem 0;
+    /* Interactive 4-Slide Industrial Showcase Frame in Hero */
+    .showcase-frame {
+      position: relative;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid rgba(212, 161, 73, 0.4);
+      box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.7);
+      height: 510px;
+      background: var(--charcoal);
     }
+    .slide-item {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      transition: opacity 0.75s ease, transform 0.75s ease;
+      transform: scale(1.04);
+      pointer-events: none;
+    }
+    .slide-item.active {
+      opacity: 1;
+      transform: scale(1);
+      pointer-events: auto;
+    }
+    .slide-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .slide-item::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(13, 15, 19, 0.94) 0%, rgba(13, 15, 19, 0.35) 55%, transparent 100%);
+    }
+    .slide-caption {
+      position: absolute;
+      bottom: 74px;
+      left: 28px;
+      right: 28px;
+      z-index: 3;
+    }
+    .slide-caption small {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: var(--gold-300);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+    .slide-caption h3 {
+      font-family: var(--serif);
+      font-size: 1.75rem;
+      color: var(--white);
+      margin-bottom: 0.3rem;
+    }
+    .slide-caption p {
+      font-size: 0.88rem;
+      color: rgba(255, 255, 255, 0.8);
+    }
+    .slide-tabs {
+      position: absolute;
+      bottom: 18px;
+      left: 24px;
+      right: 24px;
+      z-index: 4;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.5rem;
+    }
+    .s-tab {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: rgba(255, 255, 255, 0.8);
+      font-family: var(--mono);
+      font-size: 0.68rem;
+      padding: 0.5rem 0.4rem;
+      border-radius: 6px;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.25s;
+    }
+    .s-tab.active {
+      background: var(--gold-500);
+      color: var(--obsidian);
+      border-color: var(--gold-300);
+      font-weight: 700;
+    }
+
+    /* Scroll Reveal */
+    .reveal {
+      opacity: 0;
+      transform: translateY(26px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    section { padding: 6rem 0; }
     .eyebrow {
       font-family: var(--mono);
       font-size: 0.75rem;
@@ -326,339 +443,399 @@
     }
     .sec-title {
       font-family: var(--serif);
-      font-size: clamp(2rem, 3.2vw, 2.85rem);
+      font-size: clamp(2.15rem, 3.3vw, 2.95rem);
       color: var(--obsidian);
-      line-height: 1.16;
+      line-height: 1.15;
       margin-bottom: 1rem;
     }
 
-    /* Corporate Heritage & West-Coast Port Gateway Section */
+    /* Section 1: West-Coast Gujarat Port Gateway & Visual Heritage */
     .gateway-section {
       background: var(--white);
       border-bottom: 1px solid var(--border-warm);
     }
-    .gateway-layout {
-      display: grid;
-      grid-template-columns: 0.9fr 1.1fr;
-      gap: 4rem;
-      align-items: center;
-    }
-    .seal-showcase {
-      background: var(--obsidian);
-      color: var(--white);
-      padding: 3rem 2.5rem;
-      border-radius: 6px;
-      position: relative;
-      border: 1px solid rgba(207, 153, 61, 0.35);
-    }
-    .seal-showcase-top {
-      display: flex;
-      align-items: center;
-      gap: 1.25rem;
-      margin-bottom: 2rem;
-      padding-bottom: 1.5rem;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-    }
-    .seal-showcase-top img {
-      width: 84px;
-      height: 84px;
-      object-fit: contain;
-    }
-    .seal-showcase-top h3 {
-      font-family: var(--serif);
-      font-size: 1.55rem;
-      color: var(--gold-300);
-    }
-    .seal-showcase-top span {
-      font-family: var(--mono);
-      font-size: 0.74rem;
-      color: rgba(255, 255, 255, 0.7);
-      display: block;
-      margin-top: 0.25rem;
-    }
-    .gateway-stats {
+    .gateway-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 1.25rem;
+      gap: 4.5rem;
+      align-items: center;
     }
-    .g-stat {
-      background: rgba(255, 255, 255, 0.04);
-      border: 1px solid rgba(207, 153, 61, 0.22);
-      padding: 1.15rem;
+    .gateway-visual {
+      position: relative;
     }
-    .g-stat strong {
+    .gw-img {
+      width: 100%;
+      height: 460px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 25px 50px -15px rgba(13, 15, 19, 0.22);
+      border: 1px solid var(--border-warm);
+    }
+    .gw-medallion {
+      position: absolute;
+      bottom: -24px;
+      left: 28px;
+      right: 28px;
+      background: var(--obsidian);
+      color: var(--white);
+      padding: 1.35rem 1.65rem;
+      border-radius: 8px;
+      border: 1px solid rgba(212, 161, 73, 0.5);
+      display: flex;
+      align-items: center;
+      gap: 1.15rem;
+      box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.45);
+    }
+    .gw-medallion img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+    }
+    .gw-medallion h4 {
       font-family: var(--serif);
-      font-size: 1.45rem;
+      font-size: 1.25rem;
       color: var(--gold-300);
-      display: block;
     }
-    .g-stat span {
-      font-size: 0.8rem;
-      color: rgba(255, 255, 255, 0.72);
+    .gw-medallion p {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: rgba(255, 255, 255, 0.76);
+      margin-top: 0.15rem;
     }
 
     .gateway-copy p {
       font-size: 1.02rem;
       color: var(--text-mid);
-      margin-bottom: 1.25rem;
+      margin-bottom: 1.2rem;
     }
-    .port-advantages {
-      margin-top: 1.75rem;
-      display: grid;
-      gap: 1rem;
-    }
-    .adv-row {
+    .port-corridor-pills {
       display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+      margin: 1.5rem 0 1.8rem;
+    }
+    .port-corridor-pills span {
+      font-family: var(--mono);
+      font-size: 0.74rem;
+      font-weight: 600;
+      padding: 0.42rem 0.85rem;
+      background: var(--gold-100);
+      color: var(--gold-700);
+      border: 1px solid rgba(181, 130, 46, 0.35);
+      border-radius: 4px;
+    }
+    .adv-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       gap: 1rem;
-      align-items: flex-start;
-      padding: 1rem 1.25rem;
+    }
+    .adv-c {
       background: var(--alabaster);
-      border-left: 3px solid var(--gold-600);
+      border: 1px solid var(--border-warm);
+      border-top: 3px solid var(--gold-600);
+      padding: 1.15rem;
+      border-radius: 4px;
     }
-    .adv-row strong {
-      color: var(--obsidian);
+    .adv-c strong {
       display: block;
-      font-size: 0.95rem;
+      font-size: 0.94rem;
+      color: var(--obsidian);
+      margin-bottom: 0.25rem;
     }
-    .adv-row span {
-      font-size: 0.88rem;
+    .adv-c span {
+      font-size: 0.83rem;
       color: var(--text-mid);
     }
 
-    /* 6-Division Industrial Matrix (Editorial Bento Layout) */
+    /* Section 2: 6-Vertical Photographic Luxury Bento Grid */
     .divisions-section {
       background: var(--alabaster);
       border-bottom: 1px solid var(--border-warm);
     }
-    .divisions-grid {
+    .div-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 2rem;
+      gap: 2.25rem;
       margin-top: 3rem;
     }
-    .division-panel {
+    .div-card {
       background: var(--white);
       border: 1px solid var(--border-warm);
-      padding: 2.4rem;
+      border-radius: 10px;
+      overflow: hidden;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      transition: all 0.25s;
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 6px 20px -8px rgba(13, 15, 19, 0.06);
     }
-    .division-panel:hover {
+    .div-card:hover {
+      transform: translateY(-7px);
       border-color: var(--gold-600);
-      box-shadow: 0 18px 35px -15px rgba(17, 19, 23, 0.1);
+      box-shadow: 0 24px 45px -15px rgba(13, 15, 19, 0.16);
     }
-    .panel-head {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 1rem;
-      padding-bottom: 0.85rem;
-      border-bottom: 1px solid var(--ivory);
+    .div-photo {
+      position: relative;
+      height: 235px;
+      overflow: hidden;
+      background: var(--obsidian);
     }
-    .panel-code {
+    .div-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.65s ease;
+    }
+    .div-card:hover .div-photo img {
+      transform: scale(1.08);
+    }
+    .div-photo::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(13, 15, 19, 0.82) 0%, transparent 60%);
+    }
+    .div-tag {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      z-index: 2;
+      background: rgba(13, 15, 19, 0.85);
+      backdrop-filter: blur(8px);
+      color: var(--gold-300);
+      border: 1px solid rgba(212, 161, 73, 0.45);
       font-family: var(--mono);
-      font-size: 0.74rem;
+      font-size: 0.7rem;
+      padding: 0.32rem 0.75rem;
+      border-radius: 4px;
+      letter-spacing: 0.08em;
+    }
+    .div-std {
+      position: absolute;
+      bottom: 14px;
+      right: 16px;
+      z-index: 2;
+      background: var(--gold-600);
+      color: var(--white);
+      font-family: var(--mono);
+      font-size: 0.7rem;
       font-weight: 600;
-      color: var(--gold-700);
-      background: var(--gold-100);
       padding: 0.25rem 0.65rem;
+      border-radius: 3px;
     }
-    .panel-std {
-      font-family: var(--mono);
-      font-size: 0.72rem;
-      color: var(--text-light);
+    .div-content {
+      padding: 2rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
-    .division-panel h3 {
+    .div-content h3 {
       font-family: var(--serif);
-      font-size: 1.65rem;
+      font-size: 1.68rem;
       color: var(--obsidian);
-      margin-bottom: 0.75rem;
+      margin-bottom: 0.65rem;
     }
-    .division-panel > div > p {
-      font-size: 0.94rem;
+    .div-content p {
+      font-size: 0.93rem;
       color: var(--text-mid);
-      margin-bottom: 1.5rem;
+      margin-bottom: 1.35rem;
     }
-    .item-checklist {
+    .spec-grid-6 {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 0.75rem;
-      margin-bottom: 1.5rem;
-      padding: 1.25rem;
+      gap: 0.65rem;
+      padding: 1.15rem;
       background: var(--alabaster);
       border: 1px solid var(--border-warm);
+      border-radius: 6px;
+      margin-bottom: 1.35rem;
     }
-    .check-entry {
-      font-size: 0.84rem;
+    .sg-item {
+      font-size: 0.83rem;
+      font-weight: 600;
       color: var(--obsidian);
-      font-weight: 500;
       display: flex;
       align-items: center;
       gap: 0.45rem;
     }
-    .check-entry::before {
-      content: "▪";
+    .sg-item::before {
+      content: "◆";
       color: var(--gold-600);
-      font-size: 1rem;
+      font-size: 0.65rem;
     }
-    .panel-foot {
+    .div-foot {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      font-family: var(--mono);
-      font-size: 0.76rem;
-      color: var(--text-light);
       padding-top: 1rem;
       border-top: 1px solid var(--ivory);
+      font-family: var(--mono);
+      font-size: 0.73rem;
+      color: var(--text-light);
     }
-    .panel-foot a {
+    .alloc-btn {
+      background: none;
+      border: none;
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      font-weight: 700;
       color: var(--gold-700);
-      text-decoration: none;
-      font-weight: 600;
+      cursor: pointer;
+      transition: color 0.2s;
     }
+    .alloc-btn:hover { color: var(--obsidian); }
 
-    /* Technical Specification Ledger Table */
+    /* Section 3: Obsidian & Gold Master Technical Specification Matrix */
     .specs-section {
       background: var(--obsidian);
       color: var(--white);
+      position: relative;
     }
-    .specs-section .sec-title {
-      color: var(--white);
-    }
-    .master-table-wrap {
+    .specs-section .sec-title { color: var(--white); }
+    .table-shell {
       overflow-x: auto;
       margin-top: 2.5rem;
-      border: 1px solid rgba(207, 153, 61, 0.3);
+      border: 1px solid rgba(212, 161, 73, 0.35);
+      border-radius: 8px;
+      background: var(--charcoal);
     }
-    .master-table {
+    .gold-table {
       width: 100%;
       border-collapse: collapse;
       text-align: left;
       font-size: 0.88rem;
     }
-    .master-table th {
-      background: rgba(207, 153, 61, 0.15);
+    .gold-table th {
+      background: rgba(212, 161, 73, 0.16);
       color: var(--gold-300);
       font-family: var(--mono);
-      font-size: 0.75rem;
+      font-size: 0.74rem;
       text-transform: uppercase;
       letter-spacing: 0.08em;
-      padding: 1.1rem 1.25rem;
-      border-bottom: 1px solid rgba(207, 153, 61, 0.3);
+      padding: 1.15rem 1.3rem;
+      border-bottom: 1px solid rgba(212, 161, 73, 0.35);
     }
-    .master-table td {
-      padding: 1.05rem 1.25rem;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    .gold-table td {
+      padding: 1.05rem 1.3rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.07);
       color: rgba(255, 255, 255, 0.85);
     }
-    .master-table tr:hover td {
-      background: rgba(255, 255, 255, 0.03);
+    .gold-table tr:hover td {
+      background: rgba(212, 161, 73, 0.07);
     }
-    .master-table td.mono {
+    .gold-table td.mono {
       font-family: var(--mono);
-      font-size: 0.8rem;
       color: var(--gold-300);
+      font-size: 0.8rem;
     }
 
-    /* Contact & Jamnagar Office Section */
+    /* Section 4: Corporate Contact & Jamnagar Office */
     .contact-section {
-      background: var(--white);
-      border-top: 1px solid var(--border-warm);
+      background: linear-gradient(180deg, var(--white) 0%, var(--ivory) 100%);
     }
     .contact-split {
       display: grid;
-      grid-template-columns: 1fr 1.15fr;
+      grid-template-columns: 0.95fr 1.05fr;
       gap: 3.5rem;
+      align-items: stretch;
     }
-    .hq-box {
-      background: var(--alabaster);
-      border: 1px solid var(--border-warm);
-      border-top: 4px solid var(--obsidian);
-      padding: 2.5rem;
+    .office-box {
+      background: var(--obsidian);
+      color: var(--white);
+      padding: 2.8rem;
+      border-radius: 12px;
+      border: 1px solid rgba(212, 161, 73, 0.4);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 25px 50px -15px rgba(13, 15, 19, 0.35);
     }
-    .hq-box h3 {
+    .office-box h3 {
       font-family: var(--serif);
-      font-size: 1.75rem;
-      color: var(--obsidian);
-      margin-bottom: 0.4rem;
+      font-size: 1.95rem;
+      color: var(--gold-300);
+      margin-bottom: 0.3rem;
     }
-    .hq-box .sub {
+    .office-sub {
       font-family: var(--mono);
-      font-size: 0.75rem;
-      color: var(--gold-700);
+      font-size: 0.74rem;
       text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-bottom: 2rem;
+      letter-spacing: 0.12em;
+      color: rgba(255, 255, 255, 0.65);
       display: block;
+      margin-bottom: 2rem;
     }
-    .hq-details {
+    .off-list {
       display: grid;
       gap: 1.4rem;
+      margin-bottom: 2rem;
     }
-    .hq-row strong {
+    .off-item small {
       display: block;
       font-family: var(--mono);
-      font-size: 0.72rem;
+      font-size: 0.7rem;
       text-transform: uppercase;
       letter-spacing: 0.1em;
-      color: var(--text-light);
+      color: var(--gold-500);
       margin-bottom: 0.25rem;
     }
-    .hq-row span, .hq-row a {
-      font-size: 1rem;
-      color: var(--obsidian);
-      font-weight: 600;
+    .off-item span, .off-item a {
+      font-size: 1.02rem;
+      color: var(--white);
       text-decoration: none;
+      font-weight: 500;
     }
-    .hq-row a:hover {
-      color: var(--gold-700);
-    }
+    .off-item a:hover { color: var(--gold-300); }
 
-    .inquiry-box {
-      background: var(--alabaster);
+    .quote-form {
+      background: var(--white);
+      padding: 2.8rem;
+      border-radius: 12px;
       border: 1px solid var(--border-warm);
-      padding: 2.5rem;
+      box-shadow: 0 20px 40px -15px rgba(13, 15, 19, 0.08);
     }
-    .inquiry-box h3 {
+    .quote-form h3 {
       font-family: var(--serif);
-      font-size: 1.65rem;
-      margin-bottom: 0.4rem;
+      font-size: 1.85rem;
+      color: var(--obsidian);
+      margin-bottom: 0.35rem;
     }
-    .inquiry-box p {
+    .quote-form p {
       font-size: 0.9rem;
       color: var(--text-mid);
-      margin-bottom: 1.5rem;
+      margin-bottom: 1.6rem;
     }
-    .f-grid {
+    .fg-2 {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 1rem;
       margin-bottom: 1rem;
     }
-    .f-field {
-      margin-bottom: 1rem;
-    }
-    .f-field label {
+    .fld { margin-bottom: 1rem; }
+    .fld label {
       display: block;
       font-size: 0.8rem;
       font-weight: 600;
-      margin-bottom: 0.35rem;
       color: var(--obsidian);
+      margin-bottom: 0.35rem;
     }
-    .f-field input, .f-field select, .f-field textarea {
+    .fld input, .fld select, .fld textarea {
       width: 100%;
-      padding: 0.75rem 0.9rem;
-      background: var(--white);
+      padding: 0.8rem 0.95rem;
+      border-radius: 6px;
       border: 1px solid var(--border-warm);
+      background: var(--alabaster);
       font-family: var(--sans);
       font-size: 0.9rem;
       color: var(--obsidian);
+      transition: all 0.2s;
     }
-    .f-field input:focus, .f-field select:focus, .f-field textarea:focus {
+    .fld input:focus, .fld select:focus, .fld textarea:focus {
       outline: none;
       border-color: var(--gold-600);
+      background: var(--white);
+      box-shadow: 0 0 0 3px rgba(212, 161, 73, 0.15);
     }
 
     /* Footer */
@@ -668,7 +845,7 @@
       padding: 3.5rem 0 2.5rem;
       border-top: 2px solid var(--gold-600);
     }
-    .footer-top {
+    .ft-top {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -677,26 +854,23 @@
       padding-bottom: 2rem;
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
-    .footer-id {
+    .ft-brand {
       display: flex;
       align-items: center;
-      gap: 1.1rem;
+      gap: 1rem;
     }
-    .footer-id img {
+    .ft-brand img {
       width: 58px;
       height: 58px;
       object-fit: contain;
     }
-    .footer-id h4 {
+    .ft-brand h4 {
       font-family: var(--serif);
+      font-size: 1.38rem;
       color: var(--gold-300);
-      font-size: 1.35rem;
     }
-    .footer-id p {
-      font-size: 0.82rem;
-      color: rgba(255, 255, 255, 0.65);
-    }
-    .footer-meta {
+    .ft-brand p { font-size: 0.82rem; color: rgba(255, 255, 255, 0.65); }
+    .ft-btm {
       padding-top: 1.5rem;
       display: flex;
       justify-content: space-between;
@@ -705,32 +879,23 @@
       gap: 1rem;
     }
 
-    @media (max-width: 1024px) {
-      .hero-top-row, .gateway-layout, .divisions-grid, .contact-split {
-        grid-template-columns: 1fr;
-      }
-      .hero-ledger {
-        grid-template-columns: repeat(2, 1fr);
-      }
+    @media (max-width: 1040px) {
+      .hero-grid, .gateway-grid, .div-grid, .contact-split { grid-template-columns: 1fr; }
     }
     @media (max-width: 680px) {
-      .nav-menu {
-        display: none;
-      }
-      .hero-ledger, .item-checklist, .f-grid, .gateway-stats {
-        grid-template-columns: 1fr;
-      }
+      .nav-menu { display: none; }
+      .spec-grid-6, .fg-2, .hero-metrics, .adv-cards, .slide-tabs { grid-template-columns: 1fr 1fr; }
     }
   </style>
 </head>
 <body>
 
-  <!-- Top Institutional Ribbon -->
-  <div class="heritage-ribbon">
-    <div class="container ribbon-inner">
+  <!-- Top Corporate Ribbon -->
+  <div class="top-ribbon">
+    <div class="container ribbon-flex">
       <div class="ribbon-left">
-        <span><i class="gold-pip"></i> REGD. OFFICE: BEDI BUNDER ROAD, JAMNAGAR – 361 008</span>
-        <span>DIRECT LINE: +91 22 40050922</span>
+        <span><i class="diamond"></i> 102, WHITE HOUSE, BEDI BUNDER ROAD, JAMNAGAR – 361 008</span>
+        <span>DIRECT DESK: +91 22 40050922</span>
       </div>
       <div class="ribbon-right">
         <a href="mailto:info@thetaggart.com">info@thetaggart.com</a>
@@ -740,7 +905,7 @@
     </div>
   </div>
 
-  <!-- Main Header -->
+  <!-- Main Sticky Header -->
   <header class="site-header">
     <div class="container header-inner">
       <a href="#" class="brand">
@@ -751,345 +916,393 @@
         </div>
       </a>
       <nav class="nav-menu">
-        <a href="#heritage">Corporate Overview</a>
-        <a href="#divisions">Industrial Divisions</a>
-        <a href="#specifications">Commodity Ledger</a>
-        <a href="#contact">Corporate Desk</a>
+        <a href="#heritage">Port Gateway</a>
+        <a href="#divisions">6 Industrial Verticals</a>
+        <a href="#specifications">Specification Ledger</a>
+        <a href="#contact">Commercial Desk</a>
       </nav>
-      <div class="header-cta">
-        <a href="https://www.linkedin.com/company/thetaggart" target="_blank" rel="noopener" class="social-pill" title="LinkedIn" aria-label="LinkedIn">
+      <div class="header-actions">
+        <a href="https://www.linkedin.com/company/thetaggart" target="_blank" rel="noopener" class="soc-btn" title="LinkedIn" aria-label="LinkedIn">
           <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
         </a>
-        <a href="https://www.instagram.com/thetaggart/" target="_blank" rel="noopener" class="social-pill" title="Instagram" aria-label="Instagram">
+        <a href="https://www.instagram.com/thetaggart/" target="_blank" rel="noopener" class="soc-btn" title="Instagram" aria-label="Instagram">
           <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/></svg>
         </a>
-        <a href="#contact" class="btn-gold">Request Commercial Quote</a>
+        <a href="#contact" class="btn-gold">Request Quotation →</a>
       </div>
     </div>
   </header>
 
-  <!-- Editorial Architectural Hero -->
+  <!-- Split-Screen Cinematic Industrial Hero -->
   <section class="hero">
-    <div class="container">
-      <div class="hero-top-row">
-        <div>
-          <span class="hero-tag">Established Indian Trading &amp; Port Logistics House</span>
-          <h1>Industrial Commodities, Structural Steel &amp; <em>Port-Side Execution.</em></h1>
+    <div class="container hero-grid">
+      <div>
+        <span class="hero-pill">◆ JAMNAGAR MARITIME CORRIDOR • INDIA</span>
+        <h1>Forging Global Supply Chains With <em>Industrial Authority.</em></h1>
+        <p class="hero-desc">
+          Strategically positioned at <strong>Bedi Bunder Road, Jamnagar</strong>, <strong>Taggart Enterprises Pvt. Ltd.</strong> imports, trades, and dispatches mill-certified Steel, Base Metals, Industrial Chemicals, Fertilizers, Heavy Cranes, and Wind Energy assets across India’s premier West-Coast port belt.
+        </p>
+        <div class="hero-cta-row">
+          <a href="#divisions" class="btn-champagne">Explore 6 Industrial Verticals →</a>
+          <a href="tel:+912240050922" class="btn-ghost-gold">Call +91 22 40050922</a>
         </div>
-        <div class="hero-summary-box">
-          <p>
-            Anchored at <strong>Bedi Bunder Road, Jamnagar</strong>—India’s premier West-Coast maritime corridor—<strong>Taggart Enterprises Pvt. Ltd.</strong> imports, trades, and distributes essential industrial raw materials, metals, chemical feedstocks, fertilizers, and heavy engineering machinery.
-          </p>
-          <div class="hero-actions">
-            <a href="#divisions" class="btn-gold">Inspect 6 Industrial Divisions</a>
-            <a href="tel:+912240050922" class="btn-secondary">Call +91 22 40050922</a>
+        <div class="hero-metrics">
+          <div class="hm-box">
+            <strong>6 Verticals</strong>
+            <span>Steel, Metals, Chemicals, Agri, Cranes &amp; Wind</span>
+          </div>
+          <div class="hm-box">
+            <strong>5 Ports</strong>
+            <span>Bedi, Sikka, Kandla, Mundra &amp; Mumbai Access</span>
+          </div>
+          <div class="hm-box">
+            <strong>100% Assay</strong>
+            <span>Certified Quality &amp; Port-Side Stevedoring</span>
           </div>
         </div>
       </div>
 
-      <!-- 4-Column Architectural Index Ledger -->
-      <div class="hero-ledger">
-        <div class="ledger-cell">
-          <span class="idx">DIVISION I // METALLURGY</span>
-          <h3>Iron, Steel &amp; Non-Ferrous</h3>
-          <p>Plates, HR/CR Coils, Pipes, Structural Angles, TMT Bars, Copper, Zinc, Aluminum, Iron Ore &amp; HBI.</p>
+      <!-- Interactive 4-Slide Visual Industrial Showcase -->
+      <div class="showcase-frame">
+        <div class="slide-item active" id="slide0">
+          <img src="https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?auto=format&fit=crop&w=1400&q=85" alt="Steel Metallurgy Plates and Coils" />
+          <div class="slide-caption">
+            <small>VERTICAL 01 // METALLURGY</small>
+            <h3>Prime Structural &amp; Flat Steel</h3>
+            <p>Heavy Plates, HR/CR Coils, Seamless Pipes, Angles &amp; Fe500D TMT Bars.</p>
+          </div>
         </div>
-        <div class="ledger-cell">
-          <span class="idx">DIVISION II // CHEMICALS</span>
-          <h3>Industrial Feedstocks</h3>
-          <p>Technical Grade Urea 46% N, Bright Yellow Sulphur (Granular &amp; Lumps), Natural Gypsum &amp; Soda Ash.</p>
+        <div class="slide-item" id="slide1">
+          <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1400&q=85" alt="Gujarat Deepwater Port Bulk Logistics" />
+          <div class="slide-caption">
+            <small>WEST-COAST GATEWAY // JAMNAGAR</small>
+            <h3>Port-Side Bulk &amp; Breakbulk Execution</h3>
+            <p>High-Seas Sales, bonded storage, and direct rail/road plant evacuation.</p>
+          </div>
         </div>
-        <div class="ledger-cell">
-          <span class="idx">DIVISION III // AGRI-INPUTS</span>
-          <h3>Bulk Fertilizers</h3>
-          <p>High-analysis DAP, MAP, MOP, SOP, and CAN fertilizers supplied in bulk and export-grade bags.</p>
+        <div class="slide-item" id="slide2">
+          <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1400&q=85" alt="Industrial Chemicals Urea Sulphur Soda Ash" />
+          <div class="slide-caption">
+            <small>VERTICAL 03 // INDUSTRIAL CHEMICALS</small>
+            <h3>Urea 46% N, Sulphur, Gypsum &amp; Soda Ash</h3>
+            <p>Refinery-grade chemical feedstocks in 50kg PP, 1MT Jumbo Bags &amp; Bulk Vessels.</p>
+          </div>
         </div>
-        <div class="ledger-cell">
-          <span class="idx">DIVISION IV // INFRASTRUCTURE</span>
-          <h3>Machinery, Wind &amp; Bullion</h3>
-          <p>Mobile Cranes, Excavators, Loaders, Windmill Turbines &amp; Blades, and Physical Gold &amp; Silver Bullion.</p>
+        <div class="slide-item" id="slide3">
+          <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1400&q=85" alt="Windmill Turbines and Heavy Cranes" />
+          <div class="slide-caption">
+            <small>VERTICAL 05 &amp; 06 // INFRASTRUCTURE</small>
+            <h3>Heavy Cranes &amp; Windmill Turbines</h3>
+            <p>Mobile Cranes, Excavators, Rotor Blades, and ODC project logistics.</p>
+          </div>
+        </div>
+
+        <div class="slide-tabs">
+          <button class="s-tab active" onclick="setSlide(0)">01 STEEL</button>
+          <button class="s-tab" onclick="setSlide(1)">02 PORTS</button>
+          <button class="s-tab" onclick="setSlide(2)">03 CHEMICALS</button>
+          <button class="s-tab" onclick="setSlide(3)">04 WIND &amp; CRANES</button>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Corporate Heritage & Strategic Gujarat Port Advantage -->
+  <!-- Section 1: West-Coast Gujarat Port Gateway -->
   <section id="heritage" class="gateway-section">
-    <div class="container gateway-layout">
-      <div class="seal-showcase">
-        <div class="seal-showcase-top">
+    <div class="container gateway-grid reveal">
+      <div class="gateway-visual">
+        <img class="gw-img" src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1400&q=85" alt="Bulk Cargo Vessel at Gujarat Port" loading="lazy" />
+        <div class="gw-medallion">
           <img src="taggart-logo-gold.png" alt="Taggart Golden Seal" />
           <div>
-            <h3>Taggart Enterprises</h3>
-            <span>Private Limited • Jamnagar &amp; Mumbai</span>
-          </div>
-        </div>
-        <p style="font-size:0.92rem; color:rgba(255,255,255,0.8); margin-bottom:1.75rem;">
-          Positioned along Gujarat’s strategic maritime belt, our operational proximity to deep-draft ports enables rapid vessel turnaround, bonded warehousing, and seamless rail/road evacuation into India’s industrial heartland.
-        </p>
-        <div class="gateway-stats">
-          <div class="g-stat">
-            <strong>West Coast</strong>
-            <span>Bedi Bunder, Kandla &amp; Mundra Port Access</span>
-          </div>
-          <div class="g-stat">
-            <strong>Multi-Sector</strong>
-            <span>Steel, Chemicals, Metals &amp; Capital Goods</span>
-          </div>
-          <div class="g-stat">
-            <strong>100% Assay</strong>
-            <span>Pre-Shipment Quality &amp; Weight Verification</span>
-          </div>
-          <div class="g-stat">
-            <strong>Direct Desk</strong>
-            <span>Integrated Import, Custom &amp; Inland Dispatch</span>
+            <h4>Bedi Bunder Maritime Hub</h4>
+            <p>JAMNAGAR – 361 008 • GUJARAT, INDIA</p>
           </div>
         </div>
       </div>
 
       <div class="gateway-copy">
-        <span class="eyebrow">01 // Institutional Standing</span>
-        <h2 class="sec-title">Bridging Global Producers with Industrial Consumers.</h2>
+        <span class="eyebrow">01 // Strategic Port Presence</span>
+        <h2 class="sec-title">Anchored at India’s Premier Maritime Industrial Belt.</h2>
         <p>
-          <strong>Taggart Enterprises Pvt. Ltd.</strong> serves as a trusted physical counterparty for steel processors, chemical plants, cement manufacturers, agricultural distributors, and EPC infrastructure contractors. We combine deep domain knowledge in international commodity procurement with hands-on port logistics along Bedi Bunder Road, Jamnagar.
+          <strong>Taggart Enterprises Pvt. Ltd.</strong> operates from the heart of Gujarat’s maritime corridor in <strong>Jamnagar</strong>, paired with direct corporate coordination in Mumbai (`+91 22 40050922`). Our proximity to India’s busiest bulk and breakbulk terminals allows us to manage vessel discharge, customs clearance, and inland dispatch with unmatched speed.
         </p>
         <p>
-          Whether handling bulk vessel parcels of Natural Gypsum and Sulphur or specialized project shipments of Windmill Blades and Heavy Earthmoving Cranes, every transaction is governed by strict specification compliance and timely delivery.
+          From Supramax parcels of Natural Gypsum, Sulphur, and Fertilizers to precision ODC movements of Wind Turbine Blades and Hydraulic Cranes, industrial manufacturers rely on Taggart for assured physical delivery.
         </p>
 
-        <div class="port-advantages">
-          <div class="adv-row">
-            <div>
-              <strong>Port-Side Stevedoring &amp; Evacuation</strong>
-              <span>Direct operational oversight at Jamnagar / Bedi Bunder and adjoining Gujarat terminals for bulk, breakbulk, and containerized cargo.</span>
-            </div>
+        <div class="port-corridor-pills">
+          <span>◆ BEDI PORT (JAMNAGAR)</span>
+          <span>◆ SIKKA TERMINAL</span>
+          <span>◆ KANDLA (DEENDAYAL)</span>
+          <span>◆ MUNDRA PORT</span>
+          <span>◆ NHAVA SHEVA (MUMBAI)</span>
+        </div>
+
+        <div class="adv-cards">
+          <div class="adv-c">
+            <strong>High-Seas &amp; Ex-Bond Sales</strong>
+            <span>Flexible import structures tailored for industrial end-users and EPC contractors.</span>
           </div>
-          <div class="adv-row">
-            <div>
-              <strong>End-to-End Documentation &amp; Customs Stewardship</strong>
-              <span>Complete handling of High-Seas Sales, Bill of Entry clearance, port storage, and direct plant-gate delivery.</span>
-            </div>
+          <div class="adv-c">
+            <strong>Assay &amp; Weight Integrity</strong>
+            <span>Independent surveyor certification at load and discharge ports on every lot.</span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 6-Division Industrial Portfolio -->
+  <!-- Section 2: 6-Vertical Photographic Industrial Matrix -->
   <section id="divisions" class="divisions-section">
     <div class="container">
-      <span class="eyebrow">02 // Core Trading Verticals</span>
-      <h2 class="sec-title">Comprehensive Six-Pillar Industrial Portfolio</h2>
+      <div class="reveal" style="max-width:740px;">
+        <span class="eyebrow">02 // Core Trading Divisions</span>
+        <h2 class="sec-title">Six-Pillar Industrial &amp; Commodity Portfolio</h2>
+        <p style="color:var(--text-mid); font-size:1.02rem;">
+          Explore our six specialized trading verticals supplying steel processors, chemical complexes, agribusinesses, and infrastructure developers.
+        </p>
+      </div>
 
-      <div class="divisions-grid">
-        <!-- Division 1 -->
-        <div class="division-panel">
+      <div class="div-grid">
+        <!-- Vertical 1: Steel -->
+        <div class="div-card reveal">
           <div>
-            <div class="panel-head">
-              <span class="panel-code">VERTICAL 01 // STEEL</span>
-              <span class="panel-std">ASTM • IS • EN CERTIFIED</span>
+            <div class="div-photo">
+              <span class="div-tag">VERTICAL 01 // METALLURGY</span>
+              <span class="div-std">IS • ASTM • EN</span>
+              <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1000&q=80" alt="Structural Steel Plates Coils Pipes TMT" loading="lazy" />
             </div>
-            <h3>Structural, Flat &amp; Long Steel Products</h3>
-            <p>Mill-direct supply of structural and flat steel engineered for heavy fabrication, industrial boilers, pipeline infrastructure, and civil construction.</p>
-            <div class="item-checklist">
-              <div class="check-entry">Heavy &amp; Medium Steel Plates</div>
-              <div class="check-entry">Hot &amp; Cold Rolled Coils (HRC/CRC)</div>
-              <div class="check-entry">Seamless &amp; ERW Steel Pipes</div>
-              <div class="check-entry">Structural Angles &amp; Channels</div>
-              <div class="check-entry">High-Tensile Deformed TMT Bars</div>
-              <div class="check-entry">Custom Cut-to-Length Lots</div>
+            <div class="div-content">
+              <div>
+                <h3>Structural, Flat &amp; Tubular Steel</h3>
+                <p>Mill-certified prime steel products engineered for heavy structural fabrication, oil &amp; gas pipelines, pressure vessels, and civil infrastructure.</p>
+                <div class="spec-grid-6">
+                  <div class="sg-item">Heavy &amp; Boiler Plates</div>
+                  <div class="sg-item">HR &amp; CR Steel Coils</div>
+                  <div class="sg-item">Seamless &amp; ERW Pipes</div>
+                  <div class="sg-item">Angles &amp; Channels</div>
+                  <div class="sg-item">Deformed TMT Bars</div>
+                  <div class="sg-item">Cut-to-Length Sheets</div>
+                </div>
+              </div>
+              <div class="div-foot">
+                <span>BREAKBULK • COILS • EX-PORT</span>
+                <button class="alloc-btn" onclick="pickDivision('Steel Products (Plates, Coils, Pipes, Angles, TMT)')">Request Allocation →</button>
+              </div>
             </div>
-          </div>
-          <div class="panel-foot">
-            <span>DELIVERY: BREAKBULK / CONTAINER / EX-STOCK</span>
-            <a href="#contact">Inquire Steel Allocation →</a>
           </div>
         </div>
 
-        <!-- Division 2 -->
-        <div class="division-panel">
+        <!-- Vertical 2: Base Metals & Bullion -->
+        <div class="div-card reveal">
           <div>
-            <div class="panel-head">
-              <span class="panel-code">VERTICAL 02 // METALS &amp; BULLION</span>
-              <span class="panel-std">LME &amp; REFINERY GRADE</span>
+            <div class="div-photo">
+              <span class="div-tag">VERTICAL 02 // METALS &amp; BULLION</span>
+              <span class="div-std">99.99% LME &amp; 999.9 FINE</span>
+              <img src="https://images.unsplash.com/photo-1610375461246-83df859d849d?auto=format&fit=crop&w=1000&q=80" alt="Base Metals Copper Zinc Aluminum and Gold Bullion" loading="lazy" />
             </div>
-            <h3>Ferrous, Non-Ferrous Metals &amp; Bullion</h3>
-            <p>High-purity non-ferrous ingots, cathodes, steelmaking raw materials, and physical precious metals sourced from accredited global refineries.</p>
-            <div class="item-checklist">
-              <div class="check-entry">Electrolytic Copper Cathodes</div>
-              <div class="check-entry">SHG Zinc &amp; Primary Aluminum</div>
-              <div class="check-entry">Iron Ore Fines &amp; Lumps</div>
-              <div class="check-entry">Hot Briquetted Iron (HBI)</div>
-              <div class="check-entry">Physical Gold Bullion (995 / 999.9)</div>
-              <div class="check-entry">Physical Silver Bars (999)</div>
+            <div class="div-content">
+              <div>
+                <h3>Base Metals, Iron Ore &amp; Precious Bullion</h3>
+                <p>Refined non-ferrous ingots and cathodes, steelmaking metallic feedstocks, and hallmarked physical precious metals.</p>
+                <div class="spec-grid-6">
+                  <div class="sg-item">Copper Cathodes (99.99%)</div>
+                  <div class="sg-item">SHG Zinc &amp; Aluminum</div>
+                  <div class="sg-item">Iron Ore Fines &amp; Lumps</div>
+                  <div class="sg-item">Hot Briquetted Iron (HBI)</div>
+                  <div class="sg-item">Physical Gold (995/999.9)</div>
+                  <div class="sg-item">Physical Silver Bars (999)</div>
+                </div>
+              </div>
+              <div class="div-foot">
+                <span>ASSAY CERTIFIED • FCL / BULK</span>
+                <button class="alloc-btn" onclick="pickDivision('Ferrous & Non-Ferrous Metals (Cu, Zn, Al, Iron Ore, HBI)')">Request Allocation →</button>
+              </div>
             </div>
-          </div>
-          <div class="panel-foot">
-            <span>ASSAY: INTERNATIONALLY HALLMARKED / SGS</span>
-            <a href="#contact">Inquire Metals Desk →</a>
           </div>
         </div>
 
-        <!-- Division 3 -->
-        <div class="division-panel">
+        <!-- Vertical 3: Industrial Chemicals -->
+        <div class="div-card reveal">
           <div>
-            <div class="panel-head">
-              <span class="panel-code">VERTICAL 03 // CHEMICALS</span>
-              <span class="panel-std">INDUSTRIAL &amp; REFINERY GRADE</span>
+            <div class="div-photo">
+              <span class="div-tag">VERTICAL 03 // CHEMICALS</span>
+              <span class="div-std">REFINERY &amp; MINED GRADE</span>
+              <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1000&q=80" alt="Industrial Chemicals Technical Grade Urea Sulphur Soda Ash" loading="lazy" />
             </div>
-            <h3>Industrial Chemicals &amp; Minerals</h3>
-            <p>Consistent bulk and bagged supply of primary chemical feedstocks for resin plants, glassworks, detergent factories, and cement manufacturers.</p>
-            <div class="item-checklist">
-              <div class="check-entry">Technical Grade Urea (46% N)</div>
-              <div class="check-entry">Granular &amp; Lumps Sulphur (99.9%)</div>
-              <div class="check-entry">High-Purity Natural Gypsum</div>
-              <div class="check-entry">Soda Ash Light (Na2CO3)</div>
-              <div class="check-entry">Soda Ash Dense (Glass Grade)</div>
-              <div class="check-entry">50kg PP &amp; 1MT Jumbo Packaging</div>
+            <div class="div-content">
+              <div>
+                <h3>Industrial Chemicals &amp; Minerals</h3>
+                <p>High-purity chemical raw materials supplying resin manufacturers, sulphuric acid plants, glassworks, detergent units, and cement factories.</p>
+                <div class="spec-grid-6">
+                  <div class="sg-item">Technical Grade Urea 46% N</div>
+                  <div class="sg-item">Granular &amp; Lumps Sulphur</div>
+                  <div class="sg-item">Natural Mined Gypsum</div>
+                  <div class="sg-item">Soda Ash Light (99.2%)</div>
+                  <div class="sg-item">Soda Ash Dense (Glass)</div>
+                  <div class="sg-item">50kg PP &amp; 1MT Jumbo Bags</div>
+                </div>
+              </div>
+              <div class="div-foot">
+                <span>BULK VESSEL • JUMBO BAGS</span>
+                <button class="alloc-btn" onclick="pickDivision('Industrial Chemicals (Urea 46% N, Sulphur, Gypsum, Soda Ash)')">Request Allocation →</button>
+              </div>
             </div>
-          </div>
-          <div class="panel-foot">
-            <span>ORIGIN: MIDDLE EAST / WEST COAST PORTS</span>
-            <a href="#contact">Inquire Chemical Lots →</a>
           </div>
         </div>
 
-        <!-- Division 4 -->
-        <div class="division-panel">
+        <!-- Vertical 4: Agricultural Fertilizers -->
+        <div class="div-card reveal">
           <div>
-            <div class="panel-head">
-              <span class="panel-code">VERTICAL 04 // FERTILIZERS</span>
-              <span class="panel-std">HIGH-ANALYSIS NUTRIENTS</span>
+            <div class="div-photo">
+              <span class="div-tag">VERTICAL 04 // CROP NUTRIENTS</span>
+              <span class="div-std">HIGH WATER SOLUBILITY</span>
+              <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=1000&q=80" alt="Agricultural Fertilizers DAP MAP MOP SOP CAN" loading="lazy" />
             </div>
-            <h3>Agricultural Nutrients &amp; Fertilizers</h3>
-            <p>Import and port-side handling of essential phosphate, potassic, and nitrogenous fertilizers supporting institutional and regional distribution.</p>
-            <div class="item-checklist">
-              <div class="check-entry">DAP (Di-Ammonium Phosphate 18-46-0)</div>
-              <div class="check-entry">MAP (Mono-Ammonium Phosphate)</div>
-              <div class="check-entry">MOP (Muriate of Potash 60% K2O)</div>
-              <div class="check-entry">SOP (Sulphate of Potash 50% K2O)</div>
-              <div class="check-entry">CAN (Calcium Ammonium Nitrate)</div>
-              <div class="check-entry">Bulk Vessel &amp; Bagged Dispatch</div>
+            <div class="div-content">
+              <div>
+                <h3>Agricultural Nutrients &amp; Fertilizers</h3>
+                <p>Bulk and bagged imports of essential phosphate, potassic, and nitrogenous fertilizers with rapid port bagging and inland rail/road dispatch.</p>
+                <div class="spec-grid-6">
+                  <div class="sg-item">DAP (18-46-0 Granular)</div>
+                  <div class="sg-item">MAP (11-52-0 Granular)</div>
+                  <div class="sg-item">MOP (60% K2O Potash)</div>
+                  <div class="sg-item">SOP (50% K2O Potash)</div>
+                  <div class="sg-item">CAN (27% Nitrogen)</div>
+                  <div class="sg-item">Port Bagging &amp; Dispatch</div>
+                </div>
+              </div>
+              <div class="div-foot">
+                <span>50KG BAGS • BULK PARCELS</span>
+                <button class="alloc-btn" onclick="pickDivision('Fertilizers (DAP, MAP, MOP, SOP, CAN)')">Request Allocation →</button>
+              </div>
             </div>
-          </div>
-          <div class="panel-foot">
-            <span>PACKAGING: 50KG BAGS / JUMBO / BULK</span>
-            <a href="#contact">Inquire Fertilizer Supply →</a>
           </div>
         </div>
 
-        <!-- Division 5 -->
-        <div class="division-panel">
+        <!-- Vertical 5: Heavy Machinery -->
+        <div class="div-card reveal">
           <div>
-            <div class="panel-head">
-              <span class="panel-code">VERTICAL 05 // HEAVY MACHINERY</span>
-              <span class="panel-std">EARTHMOVING &amp; LIFTING</span>
+            <div class="div-photo">
+              <span class="div-tag">VERTICAL 05 // HEAVY EQUIPMENT</span>
+              <span class="div-std">HEAVY-LIFT &amp; EARTHMOVING</span>
+              <img src="https://images.unsplash.com/photo-1580901368919-7738efb0f87e?auto=format&fit=crop&w=1000&q=80" alt="Heavy Cranes Excavators and Port Loaders" loading="lazy" />
             </div>
-            <h3>Heavy Engineering &amp; Port Equipment</h3>
-            <p>Procurement and project logistics of high-capacity lifting, excavation, and material-handling machinery for mining, ports, and infrastructure sites.</p>
-            <div class="item-checklist">
-              <div class="check-entry">Hydraulic &amp; Lattice Mobile Cranes</div>
-              <div class="check-entry">Heavy Crawler Excavators</div>
-              <div class="check-entry">Articulated Wheel Loaders</div>
-              <div class="check-entry">Port Material Handlers</div>
-              <div class="check-entry">OEM Critical Spare Assemblies</div>
-              <div class="check-entry">Breakbulk &amp; Ro-Ro Import</div>
+            <div class="div-content">
+              <div>
+                <h3>Heavy Cranes, Excavators &amp; Loaders</h3>
+                <p>Sourcing and specialized breakbulk/Ro-Ro importation of heavy lifting cranes, mining excavators, and port material-handling machinery.</p>
+                <div class="spec-grid-6">
+                  <div class="sg-item">Hydraulic Mobile Cranes</div>
+                  <div class="sg-item">Lattice Boom Cranes</div>
+                  <div class="sg-item">Heavy Crawler Excavators</div>
+                  <div class="sg-item">Articulated Wheel Loaders</div>
+                  <div class="sg-item">Port Bulk Handlers</div>
+                  <div class="sg-item">OEM Critical Spares</div>
+                </div>
+              </div>
+              <div class="div-foot">
+                <span>RO-RO • HEAVY-LIFT VESSEL</span>
+                <button class="alloc-btn" onclick="pickDivision('Heavy Machinery (Mobile Cranes, Excavators, Loaders)')">Request Allocation →</button>
+              </div>
             </div>
-          </div>
-          <div class="panel-foot">
-            <span>LOGISTICS: HEAVY-LIFT &amp; RO-RO VESSELS</span>
-            <a href="#contact">Inquire Machinery Desk →</a>
           </div>
         </div>
 
-        <!-- Division 6 -->
-        <div class="division-panel">
+        <!-- Vertical 6: Wind Energy -->
+        <div class="div-card reveal">
           <div>
-            <div class="panel-head">
-              <span class="panel-code">VERTICAL 06 // RENEWABLE ENERGY</span>
-              <span class="panel-std">UTILITY WIND INFRASTRUCTURE</span>
+            <div class="div-photo">
+              <span class="div-tag">VERTICAL 06 // RENEWABLES</span>
+              <span class="div-std">ODC WIND INFRASTRUCTURE</span>
+              <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=1000&q=80" alt="Windmill Turbines Rotor Blades and Towers" loading="lazy" />
             </div>
-            <h3>Windmill Turbines, Blades &amp; Accessories</h3>
-            <p>Specialized sourcing and over-dimensional cargo (ODC) port logistics for wind farm developers and renewable power operators across Western India.</p>
-            <div class="item-checklist">
-              <div class="check-entry">Complete Windmill Turbine Units</div>
-              <div class="check-entry">Aerodynamic Rotor Blades</div>
-              <div class="check-entry">Nacelle &amp; Hub Assemblies</div>
-              <div class="check-entry">Tubular Steel Tower Sections</div>
-              <div class="check-entry">Gearbox &amp; Generator Spares</div>
-              <div class="check-entry">Port-to-Site ODC Transport</div>
+            <div class="div-content">
+              <div>
+                <h3>Windmill Turbines, Blades &amp; Accessories</h3>
+                <p>End-to-end equipment supply and Over-Dimensional Cargo (ODC) port logistics supporting utility-scale wind energy parks across Gujarat and India.</p>
+                <div class="spec-grid-6">
+                  <div class="sg-item">Windmill Turbine Units</div>
+                  <div class="sg-item">Composite Rotor Blades</div>
+                  <div class="sg-item">Nacelle &amp; Hub Systems</div>
+                  <div class="sg-item">Tubular Tower Sections</div>
+                  <div class="sg-item">Gearbox &amp; Pitch Spares</div>
+                  <div class="sg-item">ODC Port-to-Site Transport</div>
+                </div>
+              </div>
+              <div class="div-foot">
+                <span>PROJECT ODC • GUJARAT CORRIDOR</span>
+                <button class="alloc-btn" onclick="pickDivision('Windmill Turbines, Blades & Accessories')">Request Allocation →</button>
+              </div>
             </div>
-          </div>
-          <div class="panel-foot">
-            <span>CORRIDOR: GUJARAT &amp; PAN-INDIA WIND PARKS</span>
-            <a href="#contact">Inquire Wind Assets →</a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Master Technical Specification Ledger -->
+  <!-- Section 3: Master Technical Specification Ledger -->
   <section id="specifications" class="specs-section">
-    <div class="container">
-      <span class="eyebrow" style="color:var(--gold-300);">03 // Technical Reference</span>
-      <h2 class="sec-title">Standard Commodity Specification Matrix</h2>
-      <p style="color:rgba(255,255,255,0.72); max-width:720px;">
-        Summary of commercial grades, purity benchmarks, and standard shipping modes handled by Taggart Enterprises Pvt. Ltd.
+    <div class="container reveal">
+      <span class="eyebrow" style="color:var(--gold-300);">03 // Technical Reference Matrix</span>
+      <h2 class="sec-title">Standard Commercial Grades &amp; Packaging</h2>
+      <p style="color:rgba(255,255,255,0.75); max-width:700px;">
+        Reference specifications across our primary traded commodities. Detailed mill test certificates (MTC) and load-port SGS assays accompany every shipment.
       </p>
 
-      <div class="master-table-wrap">
-        <table class="master-table">
+      <div class="table-shell">
+        <table class="gold-table">
           <thead>
             <tr>
-              <th>Commodity / Asset Class</th>
-              <th>Primary Grades &amp; Forms</th>
-              <th>Key Technical Benchmark</th>
-              <th>Packaging / Shipping Mode</th>
+              <th>Division / Commodity</th>
+              <th>Forms &amp; Sub-Grades</th>
+              <th>Purity / Standard Benchmark</th>
+              <th>Shipment &amp; Packaging</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td><strong>Structural &amp; Flat Steel</strong></td>
-              <td>Plates, Coils, Pipes, Angles, Channels, TMT</td>
+              <td>Plates, HRC/CRC, Pipes, Angles, TMT</td>
               <td class="mono">IS 2062 / ASTM A36 / Fe 500D</td>
-              <td>Breakbulk Bundles / Coils</td>
+              <td>Breakbulk Coils &amp; Bundles</td>
             </tr>
             <tr>
               <td><strong>Technical Grade Urea</strong></td>
-              <td>Prilled &amp; Granular (Industrial Grade)</td>
+              <td>Prilled &amp; Granular Industrial</td>
               <td class="mono">46.0% N Min • Biuret ≤ 0.9%</td>
               <td>50kg PP / 1MT Jumbo / Bulk</td>
             </tr>
             <tr>
-              <td><strong>Sulphur</strong></td>
-              <td>Bright Yellow Granular &amp; Lumps</td>
+              <td><strong>Bright Yellow Sulphur</strong></td>
+              <td>Refinery Granular &amp; Lumps</td>
               <td class="mono">99.90% Purity Min • Ash ≤ 0.05%</td>
-              <td>Bulk Vessel / 1.25MT Jumbo Bags</td>
+              <td>Bulk Vessel / 1.25MT Jumbo</td>
             </tr>
             <tr>
               <td><strong>Natural Gypsum &amp; Soda Ash</strong></td>
-              <td>Crushed Gypsum / Light &amp; Dense Soda Ash</td>
+              <td>Mined Gypsum / Light &amp; Dense Soda Ash</td>
               <td class="mono">CaSO4·2H2O 90%+ • Na2CO3 99.2%+</td>
-              <td>Bulk Vessel / 50kg &amp; 1MT Bags</td>
+              <td>Supramax Bulk / 50kg &amp; 1MT</td>
             </tr>
             <tr>
-              <td><strong>Bulk Fertilizers</strong></td>
+              <td><strong>Agricultural Fertilizers</strong></td>
               <td>DAP, MAP, MOP, SOP, CAN</td>
-              <td class="mono">18-46-0 (DAP) • 60% K2O (MOP)</td>
-              <td>Bulk / 50kg PP+PE Bags</td>
+              <td class="mono">DAP 18-46-0 • MOP 60% K2O</td>
+              <td>Bulk / 50kg PP+PE Lined</td>
             </tr>
             <tr>
-              <td><strong>Non-Ferrous &amp; Ferrous Feed</strong></td>
-              <td>Copper, Zinc, Aluminum, Iron Ore, HBI</td>
-              <td class="mono">Cu 99.99% • Zn 99.995% • HBI 90% Fe</td>
-              <td>Containerized Bundles / Bulk</td>
+              <td><strong>Base Metals &amp; Bullion</strong></td>
+              <td>Cu, Zn, Al, Iron Ore, HBI, Gold &amp; Silver</td>
+              <td class="mono">Cu 99.99% • HBI 90% Fe • Au 999.9</td>
+              <td>Containerized / Vault Insured</td>
             </tr>
             <tr>
-              <td><strong>Heavy Machinery &amp; Wind</strong></td>
-              <td>Cranes, Excavators, Loaders, Wind Turbines</td>
-              <td class="mono">OEM Certified • ODC Project Cargo</td>
-              <td>Ro-Ro / Heavy-Lift Breakbulk</td>
+              <td><strong>Machinery &amp; Wind Assets</strong></td>
+              <td>Mobile Cranes, Excavators, Wind Turbines</td>
+              <td class="mono">OEM Inspected • Project ODC</td>
+              <td>Heavy-Lift Breakbulk / Ro-Ro</td>
             </tr>
           </tbody>
         </table>
@@ -1097,108 +1310,136 @@
     </div>
   </section>
 
-  <!-- Corporate Office & Direct Inquiry Section -->
+  <!-- Section 4: Corporate Office & Quotation Desk -->
   <section id="contact" class="contact-section">
-    <div class="container">
-      <div class="contact-split">
-        <div class="hq-box">
-          <h3>Registered &amp; Corporate Office</h3>
-          <span class="sub">Taggart Enterprises Pvt. Ltd. • India</span>
-          <div class="hq-details">
-            <div class="hq-row">
-              <strong>Registered Office Address</strong>
+    <div class="container contact-split reveal">
+      <div class="office-box">
+        <div>
+          <h3>Registered &amp; Commercial Desk</h3>
+          <span class="office-sub">Taggart Enterprises Pvt. Ltd.</span>
+          <div class="off-list">
+            <div class="off-item">
+              <small>Registered Office (Gujarat)</small>
               <span>102, White House, Bedi Bunder Road,<br/>Jamnagar – 361 008, Gujarat, India</span>
             </div>
-            <div class="hq-row">
-              <strong>Direct Corporate Telephone</strong>
+            <div class="off-item">
+              <small>Direct Corporate Telephone</small>
               <a href="tel:+912240050922">+91 22 40050922</a>
             </div>
-            <div class="hq-row">
-              <strong>Official Trade &amp; Inquiry Email</strong>
+            <div class="off-item">
+              <small>Commercial &amp; Trade Email</small>
               <a href="mailto:info@thetaggart.com">info@thetaggart.com</a>
             </div>
-            <div class="hq-row">
-              <strong>Key Port Gateways Served</strong>
-              <span>Bedi Port (Jamnagar) • Sikka • Kandla (Deendayal) • Mundra • Nhava Sheva (Mumbai)</span>
+            <div class="off-item">
+              <small>Active Port Terminals</small>
+              <span>Bedi Port • Sikka • Kandla • Mundra • Nhava Sheva</span>
             </div>
-          </div>
-
-          <div style="display:flex; gap:0.8rem; margin-top:2rem; padding-top:1.5rem; border-top:1px solid var(--border-warm);">
-            <a href="https://www.linkedin.com/company/thetaggart" target="_blank" rel="noopener" class="btn-secondary" style="padding:0.55rem 1.1rem; font-size:0.82rem;">LinkedIn</a>
-            <a href="https://www.instagram.com/thetaggart/" target="_blank" rel="noopener" class="btn-secondary" style="padding:0.55rem 1.1rem; font-size:0.82rem;">Instagram</a>
           </div>
         </div>
 
-        <form class="inquiry-box" onsubmit="event.preventDefault(); window.location.href='mailto:info@thetaggart.com?subject=' + encodeURIComponent('Commercial Inquiry: ' + document.getElementById('tagDiv').value + ' - ' + document.getElementById('tagComp').value) + '&body=' + encodeURIComponent('Company: ' + document.getElementById('tagComp').value + '\nContact Person: ' + document.getElementById('tagName').value + '\nPhone / Email: ' + document.getElementById('tagContact').value + '\nDivision: ' + document.getElementById('tagDiv').value + '\nQuantity & Delivery Location: ' + document.getElementById('tagLoc').value + '\n\nSpecification Notes:\n' + document.getElementById('tagMsg').value);">
-          <h3>Request Commercial Quotation / Allocation</h3>
-          <p>Submit your requirement directly to our commercial desk at <strong>info@thetaggart.com</strong>.</p>
-          <div class="f-grid">
-            <div class="f-field">
-              <label>Your Name *</label>
-              <input type="text" id="tagName" placeholder="Full Name" required />
-            </div>
-            <div class="f-field">
-              <label>Company Name *</label>
-              <input type="text" id="tagComp" placeholder="Organization Pvt. Ltd." required />
-            </div>
-          </div>
-          <div class="f-grid">
-            <div class="f-field">
-              <label>Email &amp; Phone Number *</label>
-              <input type="text" id="tagContact" placeholder="email@company.com / +91..." required />
-            </div>
-            <div class="f-field">
-              <label>Product Vertical *</label>
-              <select id="tagDiv">
-                <option value="Steel Products (Plates, Coils, Pipes, Angles, TMT)">Steel Products (Plates, Coils, Pipes, Angles, TMT)</option>
-                <option value="Ferrous & Non-Ferrous Metals (Cu, Zn, Al, Iron Ore, HBI)">Ferrous &amp; Non-Ferrous Metals (Cu, Zn, Al, Iron Ore, HBI)</option>
-                <option value="Industrial Chemicals (Urea 46% N, Sulphur, Gypsum, Soda Ash)">Industrial Chemicals (Urea 46% N, Sulphur, Gypsum, Soda Ash)</option>
-                <option value="Fertilizers (DAP, MAP, MOP, SOP, CAN)">Fertilizers (DAP, MAP, MOP, SOP, CAN)</option>
-                <option value="Heavy Machinery (Mobile Cranes, Excavators, Loaders)">Heavy Machinery (Mobile Cranes, Excavators, Loaders)</option>
-                <option value="Windmill Turbines, Blades & Accessories">Windmill Turbines, Blades &amp; Accessories</option>
-                <option value="Physical Gold & Silver Bullion">Physical Gold &amp; Silver Bullion</option>
-              </select>
-            </div>
-          </div>
-          <div class="f-field">
-            <label>Required Quantity &amp; Port / Plant Destination *</label>
-            <input type="text" id="tagLoc" placeholder="e.g. 2,500 MT Ex-Bedi Port / CIF Mundra" required />
-          </div>
-          <div class="f-field">
-            <label>Detailed Grade / Schedule Requirements</label>
-            <textarea id="tagMsg" rows="3" placeholder="Provide size, grade, packaging, or delivery timeline details..."></textarea>
-          </div>
-          <button type="submit" class="btn-gold" style="width:100%; padding:0.9rem; cursor:pointer; font-size:0.92rem;">Send Commercial Inquiry to info@thetaggart.com →</button>
-        </form>
+        <div style="display:flex; gap:0.8rem; flex-wrap:wrap; padding-top:1.5rem; border-top:1px solid rgba(255,255,255,0.12);">
+          <a href="https://www.linkedin.com/company/thetaggart" target="_blank" rel="noopener" class="btn-ghost-gold" style="padding:0.55rem 1.15rem; font-size:0.82rem;">LinkedIn</a>
+          <a href="https://www.instagram.com/thetaggart/" target="_blank" rel="noopener" class="btn-ghost-gold" style="padding:0.55rem 1.15rem; font-size:0.82rem;">Instagram</a>
+        </div>
       </div>
+
+      <form class="quote-form" onsubmit="event.preventDefault(); window.location.href='mailto:info@thetaggart.com?subject=' + encodeURIComponent('Commercial Inquiry: ' + document.getElementById('qDiv').value + ' — ' + document.getElementById('qComp').value) + '&body=' + encodeURIComponent('Company: ' + document.getElementById('qComp').value + '\nContact Name: ' + document.getElementById('qName').value + '\nPhone / Email: ' + document.getElementById('qContact').value + '\nProduct Vertical: ' + document.getElementById('qDiv').value + '\nQuantity & Port/Plant Location: ' + document.getElementById('qPort').value + '\n\nSpecifications:\n' + document.getElementById('qNotes').value);">
+        <h3>Request Commercial Quotation</h3>
+        <p>Transmit your requirement directly to our commercial desk at <strong>info@thetaggart.com</strong>.</p>
+        <div class="fg-2">
+          <div class="fld">
+            <label>Your Full Name *</label>
+            <input type="text" id="qName" placeholder="Full Name" required />
+          </div>
+          <div class="fld">
+            <label>Company Name *</label>
+            <input type="text" id="qComp" placeholder="Enterprise Pvt. Ltd." required />
+          </div>
+        </div>
+        <div class="fg-2">
+          <div class="fld">
+            <label>Email &amp; Phone Number *</label>
+            <input type="text" id="qContact" placeholder="name@company.com / +91..." required />
+          </div>
+          <div class="fld">
+            <label>Industrial Vertical *</label>
+            <select id="qDiv">
+              <option value="Steel Products (Plates, Coils, Pipes, Angles, TMT)">Steel Products (Plates, Coils, Pipes, Angles, TMT)</option>
+              <option value="Ferrous & Non-Ferrous Metals (Cu, Zn, Al, Iron Ore, HBI)">Ferrous &amp; Non-Ferrous Metals (Cu, Zn, Al, Iron Ore, HBI)</option>
+              <option value="Industrial Chemicals (Urea 46% N, Sulphur, Gypsum, Soda Ash)">Industrial Chemicals (Urea 46% N, Sulphur, Gypsum, Soda Ash)</option>
+              <option value="Fertilizers (DAP, MAP, MOP, SOP, CAN)">Fertilizers (DAP, MAP, MOP, SOP, CAN)</option>
+              <option value="Heavy Machinery (Mobile Cranes, Excavators, Loaders)">Heavy Machinery (Mobile Cranes, Excavators, Loaders)</option>
+              <option value="Windmill Turbines, Blades & Accessories">Windmill Turbines, Blades &amp; Accessories</option>
+              <option value="Physical Gold & Silver Bullion">Physical Gold &amp; Silver Bullion</option>
+            </select>
+          </div>
+        </div>
+        <div class="fld">
+          <label>Target Tonnage &amp; Delivery Terms (Ex-Port / CIF / Plant) *</label>
+          <input type="text" id="qPort" placeholder="e.g. 3,000 MT Ex-Bedi Port / CIF Kandla" required />
+        </div>
+        <div class="fld">
+          <label>Detailed Grade, Sizing &amp; Delivery Schedule</label>
+          <textarea id="qNotes" rows="3" placeholder="Specify thickness/grade, packaging preference, or dispatch timeline..."></textarea>
+        </div>
+        <button type="submit" class="btn-champagne" style="width:100%; border:none; cursor:pointer; font-size:0.94rem;">Transmit Inquiry to Commercial Desk →</button>
+      </form>
     </div>
   </section>
 
   <!-- Footer -->
   <footer class="site-footer">
     <div class="container">
-      <div class="footer-top">
-        <div class="footer-id">
+      <div class="ft-top">
+        <div class="ft-brand">
           <img src="taggart-logo-gold.png" alt="Taggart Enterprises Seal" />
           <div>
             <h4>TAGGART ENTERPRISES PVT. LTD.</h4>
-            <p>102, White House, Bedi Bunder Road, Jamnagar – 361 008 | +91 22 40050922 | info@thetaggart.com</p>
+            <p>102, White House, Bedi Bunder Road, Jamnagar – 361 008 • +91 22 40050922 • info@thetaggart.com</p>
           </div>
         </div>
         <div style="display:flex; gap:1.5rem; flex-wrap:wrap; font-size:0.86rem;">
-          <a href="#heritage" style="color:rgba(255,255,255,0.75); text-decoration:none;">Overview</a>
-          <a href="#divisions" style="color:rgba(255,255,255,0.75); text-decoration:none;">Divisions</a>
+          <a href="#heritage" style="color:rgba(255,255,255,0.75); text-decoration:none;">Port Gateway</a>
+          <a href="#divisions" style="color:rgba(255,255,255,0.75); text-decoration:none;">Verticals</a>
           <a href="#specifications" style="color:rgba(255,255,255,0.75); text-decoration:none;">Specifications</a>
           <a href="https://www.linkedin.com/company/thetaggart" target="_blank" rel="noopener" style="color:var(--gold-300); text-decoration:none;">LinkedIn</a>
           <a href="https://www.instagram.com/thetaggart/" target="_blank" rel="noopener" style="color:var(--gold-300); text-decoration:none;">Instagram</a>
         </div>
       </div>
-      <div class="footer-meta">
+      <div class="ft-btm">
         <span>© 2026 Taggart Enterprises Pvt. Ltd. All Rights Reserved.</span>
         <span>Importers • Industrial Commodity Traders • Port Logistics</span>
       </div>
     </div>
   </footer>
 
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide-item');
+    const tabs = document.querySelectorAll('.s-tab');
+
+    function setSlide(idx) {
+      currentSlide = idx;
+      slides.forEach((s, i) => s.classList.toggle('active', i === idx));
+      tabs.forEach((t, i) => t.classList.toggle('active', i === idx));
+    }
+
+    setInterval(() => {
+      setSlide((currentSlide + 1) % slides.length);
+    }, 4800);
+
+    function pickDivision(divName) {
+      const sel = document.getElementById('qDiv');
+      if (sel) sel.value = divName;
+      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
 </body>
 </html>
